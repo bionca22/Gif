@@ -37,6 +37,18 @@
       320px 100px white;
 }
 
+.moon {
+    position: absolute;
+    margin:2% 0% 0% 25%;
+    width: 50px;
+    height: 50px;
+    
+    background-color: transparent;
+    border-radius: 50px;
+    box-shadow: 12px 5px 5px 5px rgb(252, 251, 251);
+    opacity: 0.8;
+}
+
 @keyframes anim-stars {
     from {
         transform: translateY(0px);
