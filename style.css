@@ -45,8 +45,11 @@
     
     background-color: transparent;
     border-radius: 50px;
-    box-shadow: 12px 5px 5px 5px rgb(252, 251, 251);
+    box-shadow: 12px 5px 5px 2px rgb(252, 251, 251);
     opacity: 0.8;
+
+    animation: anim-moon 
+                5s linear infinite;
 }
 
 @keyframes anim-stars {
@@ -55,5 +58,19 @@
     }
     to {
         transform: translateY(-150px);
+    }
+}
+
+@keyframes anim-moon {
+    0% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 0.4;
     }
 }
